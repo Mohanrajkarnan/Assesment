@@ -12,4 +12,4 @@ git checkout -b featureA = Creating feature branch
 git merge FeatureBranch = Merge from master branch
 git remote add orgin  https://github.com/Mohanrajkarnan/testGit.git = create orgin to git central repository
 git push -u orgin master = move(push) all master to git central repository
-git branch "BranchName" = create branch
+git branch "Branch-Name" = create branch

@@ -25,6 +25,7 @@ for year in yearLst:
                     unzipFileName = zipFile[:-3]
                     with open(f'./Assesment/Input/{year}/{unzipFileName}.csv', 'wb') as file_out:
                         shutil.copyfileobj(file_in, file_out)
+                        break
                 
         
 

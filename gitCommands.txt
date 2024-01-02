@@ -1,0 +1,14 @@
+git init
+git config --global user.name "Mohanraj"
+git config --global user.email "Mohanraj.karnan1991@gmail.com"
+git add = working repos to staging
+git commit -m "this is first commit" = staging to git repos
+git status = see the status
+git log = to see log
+git log --all = to see all log
+git checkout (commit id) = switch to required version
+git rm --cached FileA.txt = remove from stating (unstaging)
+git checkout -b featureA = Creating feature branch
+git merge FeatureBranch = Merge from master branch
+git remote add orgin  https://github.com/Mohanrajkarnan/testGit.git = create orgin to git central repository
+git push -u orgin master = move(push) all master to git central repository
